@@ -1,0 +1,4 @@
+baseURL = "https://pythondaymx.github.io"
+languageCode = "en-us"
+title = "PythonDay México 2019"
+theme = "hugo-uilite"

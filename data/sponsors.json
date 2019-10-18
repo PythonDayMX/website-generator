@@ -1,0 +1,48 @@
+{
+	"title" : "Aliadxs",
+	"sponsors" : [
+		{
+			"image" : "/images/truehome.png",
+			"link" : "https://www.truehome.com.mx",
+			"title" : "TrueHome",
+			"description" : "La forma inteligente de vender tu casa por un precio justo."
+		},
+		{
+			"image" : "/images/bravo.png",
+			"link" : "http://pythonday.mx",
+			"title" : "Bravo",
+			"description" : "Bravo."
+		},
+		{
+			"image" : "/images/dsam.png",
+			"link" : "https://www.datascienceacademy.com.mx",
+			"title" : "Data Science Academy Mexico",
+			"description" : "Data Science is the interdisciplinary field that leverages a wide range of analytical tools to solve problems."
+		},
+		{
+			"image" : "/images/tesorio.jpeg",
+			"link" : "https://www.tesorio.com",
+			"title" : "Tesorio",
+			"description" : "Maximize Your Cash Flow Performance."
+		},
+
+		{
+			"image" : "/images/opi-analytics.png",
+			"link" : "https://www.tesorio.com",
+			"title" : "Tesorio",
+			"description" : "Maximize Your Cash Flow Performance."
+		},
+		{
+			"image" : "https://futurelab.mx/images/futurelab-landscape.png",
+			"link" : "https://futurelab.mx/",
+			"title" : "Future Lab",
+			"description" : "Construimos el futuro que queremos ver. 🚀"
+		},
+		{
+			"image" : "https://pythondaymx.github.io/images/NallelyPedraza.png",
+			"link" : "https://futurelab.mx/",
+			"title" : "Nallely Pedraza – Interiorismo",
+			"description" : "Nallely Pedraza – Interiorismo"
+		}
+	]
+}

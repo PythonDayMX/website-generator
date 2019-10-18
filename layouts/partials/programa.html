@@ -1,0 +1,78 @@
+{{ $programa := .Site.Data.programa }}
+
+<section id="experience" class="aqua">
+  <h2 class="heading">{{ $programa.title }}</h2>
+  <div class="container">
+    <ul class="nav nav-pills">
+      <li>
+        <a class="btn btn-outline-primary active" data-toggle="tab" href="#day1">
+          <h6 class="h6 my-2">Día 1</h6>
+        </a>
+      </li>
+      <li>
+        <a class="btn btn-outline-primary" data-toggle="tab" href="#day2">
+          <h6 class="h6 my-2">Día 2</h6>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="tab-content">
+    <div id="day1" class="tab-pane active">
+      <div id="timeline">
+        {{ range $index, $element := $programa.day1 }}
+        <div class="timeline-item clearfix">
+          <div class="timeline-icon"></div>
+
+          <div class="timeline-content {{ if eq (mod $index 2) 0 }} right {{ end }}">
+            <span class="date">{{ $element.timeperiod }}</span>
+            <h6 class="h3 my-2">{{ $element.title }}</h6>
+            <h6 class="h5 my-2 text-blue">{{ $element.author }}</h6>
+            {{ $level := $element.level }}
+            {{ if $level }}
+            <h6 class="h6"><b>Nivel:</b> {{ $element.level }}</h6>
+            {{ end }}
+            {{ if $element.description }}
+            <p class="">{{ $element.description }}</p>
+            {{ end }}
+            {{ if $element.website }}
+            <a class="text-blue" target="_blank" href="{{ $element.website }}">
+              <i class="fas fa-link"></i>
+              {{ $element.website }}
+            </a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    <div id="day2" class="tab-pane">
+      <div id="timeline">
+        {{ range $index, $element := $programa.day2 }}
+        <div class="timeline-item clearfix">
+          <div class="timeline-icon"></div>
+
+          <div class="timeline-content {{ if eq (mod $index 2) 0 }} right {{ end }}">
+            <span class="date">{{ $element.timeperiod }}</span>
+            <h6 class="h3 my-2">{{ $element.title }}</h6>
+            <h6 class="h5 my-2 text-blue">{{ $element.author }}</h6>
+            {{ $level := $element.level }}
+            {{ if $level }}
+            <h6 class="h6"><b>Nivel:</b> {{ $element.level }}</h6>
+            {{ end }}
+            {{ if $element.description }}
+            <p class="">{{ $element.description }}</p>
+            {{ end }}
+            {{ if $element.website }}
+            <a class="text-blue" target="_blank" href="{{ $element.website }}">
+              <i class="fas fa-link"></i>
+              {{ $element.website }}
+            </a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+</section>

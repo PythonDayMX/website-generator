@@ -1,0 +1,73 @@
+{{ $about := .Site.Data.about }}
+
+<section id="skills" class="blue text-light">
+  <h2 class="heading">{{ $about.title }}</h2>
+
+  {{ range $key, $value := $about.about }}
+
+  <div>
+    <p>{{ $value }}</p>
+  </div>
+  {{ end }}
+
+  <a href="https://pythondaymx2019.boletia.com" target="_blank" class="btn btn-dark btn-block">¡Inscríbete!</a>
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-purple btn-block" data-toggle="modal" data-target="#map">
+    ¿Cómo llegar?
+  </button>
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-green btn-block" data-toggle="modal" data-target="#coc">
+    Código de conducta
+  </button>
+
+  <!-- Map Modal -->
+  <div class="modal fade" id="map" tabindex="-1" role="dialog" aria-labelledby="map" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">¿Cómo llegar?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15059.514541336759!2d-99.18403500000001!3d19.331072!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6649c92297beb62!2sAuditorio%20Javier%20Barros%20Sierra!5e0!3m2!1ses-419!2smx!4v1567759678126!5m2!1ses-419!2smx" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CoC Modal -->
+  <div class="modal fade" id="coc" tabindex="-1" role="dialog" aria-labelledby="coc" aria-hidden="true">
+    <div class="modal-dialog  modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Código de Conducta</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            PythonDay es un evento organizado y construido desde la comunidad. Este evento busca ser un espacio libre de discriminación y violencia donde todas las personas asistentes, sin importar su género, orientación sexual, discapacidad, edad, apariencia física, tamaño corporal, raza o religión, se sientan cómodas, respetadas y puedan compartir sus conocimientos y experiencias para beneficio común.
+          </p>
+          <p>
+            Como en toda construcción común, es responsabilidad de las personas que participamos el mantener un entorno seguro y agradable. El objetivo principal es compartir y aprender de las demás y sobre todo convivir como comunidad. Invitamos a todos(as) a mantener un comportamiento amable y profesional hacia las demás personas.
+          </p>
+          <p>
+            Dentro de la sede del evento no está permitido fumar, beber alcohol, hablar con lenguaje obsceno, tampoco se tolerará ningún tipo de acoso o discriminación a las personas participantes del evento.
+          </p>
+          <p>
+            Al ser organizadores y parte de la comunidad estaremos prestando atención a que no exista ningún tipo de comportamiento abusivo. En caso de que seas víctima o testigo de acoso o falta al código de conducta por parte de cualquier asistente (visitante, organizador(a), ponente), contáctanos para tomar acciones. Éstas pueden ser desde una llamada de atención o incluso pedirle abandonar del evento, dependiendo de la gravedad de la falta.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

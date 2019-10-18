@@ -1,0 +1,33 @@
+{{ $sidebar := .Site.Data.sidebar }}
+{{ $social := .Site.Data.social }}
+{{ $socialfas := .Site.Data.socialfas}}
+
+<section id="sidebar" class="sidebar d-flex align-items-center p-5">
+  <div class="main-info">
+
+    <img src="{{.Site.BaseURL}}images/{{ $sidebar.displayPicture }}" class="rounded-circle mb-3" width="200px">
+    <h1 class="heading">{{ $sidebar.title }} <span class="highlight">{{ $sidebar.highlightedText }}</span></h1>
+    <p class="text-muted">{{ $sidebar.description }}</p>
+
+    <div class="social my-4">
+
+      {{ range $key, $value := $social }}
+        <a target="_blank" href="{{ $value }}" rel="me">
+          <i class="fab fa-{{ $key }}"></i>
+        </a>
+      {{ end }}
+
+      {{ range $key, $value := $socialfas }}
+        <a target="_blank" href="{{ $value }}">
+          <i class="fas fa-{{ $key }}"></i>
+        </a>
+      {{ end }}
+
+    </div>
+
+    <a href="https://pythondaymx2019.boletia.com" target="_blank"><img src="https://img.shields.io/static/v1?label=¡Inscríbete!&message=Boletia&color=FF8A41&style=for-the-badge" width="85%"></a>
+    <!-- <a href="https://pythondaymx2019.boletia.com" target="_blank" class="btn btn-dark btn-lg">¡INSCRÍBETE!</a> -->
+
+
+  </div>
+</section>
