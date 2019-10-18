@@ -1,139 +1,122 @@
 {
-	"title" : "Programa",
-	"day1" : [
-		{
-			"timeperiod" : "10:00 - 10:10",
-			"title" : "Inauguración",
-			"author" : "Equipo PythonDay México"
-		},
-		{
-			"timeperiod" : "10:10 - 10:50",
-			"title" : "Python Good Practices for real-life Web Development",
-			"author" : "Ricardo Tercero Solis",
-			"level" : "Principiante",
-			"description" : "Now a day there are many methodologies, rules, etc. that states the way a developer must design, code and deliver. However, the real-life in a web project is too dynamic to stick to all of them or to those you like the most. This talk is to share what I’ve learned along my journey as a web developer."
-		},
-		{
-			"timeperiod" : "10:55 - 11:35",
-			"title" : "Del reconocimiento de patrones al machine learning",
-			"author" : "Ulises Garcia",
-			"level" : "Intermedio",
-			"description" : "¿Te has preguntado qué hay antes del machine learning? ¿Realmente las computadoras aprende por sí solas? La respuesta es no, el machine learning es cómo educar a un bebé desde su crecimiento, pero no de manera explicita las computadoras necesitan datos."
-		},
-		{
-			"timeperiod" : "11:40 - 12:20",
-			"title" : "Estudio de redes genéticas con python usando pandas y networkx",
-			"author" : "Rodrigo Dorantes-Gilardi",
-			"level" : "Intermedio",
-			"description" : "Se habla del estudio de redes de co-expresion genética con herramientas de programación. Se presenta un flujo típico de investigación usando python en jupyter donde se muestran algunas visualizaciones y resultados de un problema de investigación."
-		},
-		{
-			"timeperiod" : "12:25 - 13:05",
-			"title" : "Monitoreando y visualizando streaming de datos con Bokeh",
-			"author" : "Juana Martinez",
-			"level" : "Intermedio",
-			"description" : "El aprender uso de librerías para dashboards y gráficos dinámicos e interactivos no solo te da el control sobre la configuración y diseño de tu monitor o reporte; puede librarte de encadenarte a un producto en particular o licencia. Ideal para emprendedores, micro y pequeñas empresas."
-		},
-		{
-			"timeperiod" : "13:10 - 13:50",
-			"title" : "Comida",
-			"author" : "Equipo PythonDay México"
-		},
-		{
-			"timeperiod" : "13:55 - 14:35",
-			"title" : "Geoprocesamiento con Python",
-			"author" : "Mario Alberto",
-			"level" : "Intermedio",
-			"description" : "En esta charla el objetivo principal es compartir un área en donde, el lenguaje python es de gran ayuda, se trata del manejo de información geo-espacial. Con esta charla, quiero compartir cómo es que se puede obtener, manejar y/o procesar información geo-espacial con Python y algunas bibliotecas."
-		},
-		{
-			"timeperiod" : "14:40 - 15:20",
-			"title" : "Explorar o aprovechar: Introducción a la optimización Bayesiana con Python",
-			"author" : "Raúl Peralta Lozada",
-			"level" : "Intermedio",
-			"description" : "En esta plática quiero explicar el concepto de optimización Bayesiana, los caso de uso que tiene y cómo se pueden resolver este tipo de problemas usando las bibliotecas Botorch y Ax. Describiré el algoritmo general y los componentes de los que depende usando múltiples visualizaciones interactivas."
-		},
-		{
-			"timeperiod" : "15:25 - 16:05",
-			"title" : "Combinaciones, permutaciones y otras diversiones",
-			"author" : "Ariel Ortiz Ramírez",
-			"level" : "Intermedio",
-			"description" : "Cuando se estudia probabilidad es común hablar de ciertas agrupaciones conocidas como combinaciones y permutaciones. En esta plática mostraré el poder y la elegancia de las listas por comprensión con el fin de diseñar e implementar funciones en Python que permitan generar este tipo de agrupaciones."
-		},
-		{
-			"timeperiod" : "16:10 - 16:50",
-			"title" : "DjangoJazz, cómo contribuir al ecosistema de Django",
-			"author" : "Andres Vargas",
-			"level" : "Intermedio",
-			"website" : "https://jazzband.co/",
-			"description" : "DjangoJazzband, no es una banda de jazz, es un grupo de desarrolladores de python que no tocan jazz."
-		},
-		{
-			"timeperiod" : "16:50 - 17:00",
-			"title" : "Cierre del día",
-			"author" : "Equipo PythonDay México"
-		}
-	],
-	"day2" : [
-		{
-			"timeperiod" : "09:50 - 10:00",
-			"title" : "¡Reanudamos actividades!",
-			"author" : "Equipo PythonDay México"
-		},
-		{
-			"timeperiod" : "10:00 - 12:00",
-			"title" : "Build a CRUD App with Python, Flask, and Angular",
-			"author" : "Sala 1"
-		},
-		{
-			"timeperiod" : "10:00 - 12:00",
-			"title" : "Cómo contribuir al código fuente de CPython",
-			"author" : "Sala 2"
-		},
-		{
-			"timeperiod" : "10:55 - 11:35",
-			"title" : "TBD.",
-			"author" : "TBD."
-		},
-		{
-			"timeperiod" : "11:40 - 12:20",
-			"title" : "TBD.",
-			"author" : "TBD."
-		},
-		{
-			"timeperiod" : "12:25 - 13:05",
-			"title" : "TBD.",
-			"author" : "TBD."
-		},
-		{
-			"timeperiod" : "13:00 - 14:00",
-			"title" : "Comida",
-			"author" : "Equipo PythonDay México"
-		},
-		{
-			"timeperiod" : "13:55 - 14:35",
-			"title" : "TBD.",
-			"author" : "TBD."
-		},
-		{
-			"timeperiod" : "14:40 - 15:20",
-			"title" : "TBD.",
-			"author" : "TBD."
-		},
-		{
-			"timeperiod" : "15:25 - 16:05",
-			"title" : "TBD.",
-			"author" : "TBD."
-		},
-		{
-			"timeperiod" : "16:10 - 16:50",
-			"title" : "TBD.",
-			"author" : "TBD."
-		},
-		{
-			"timeperiod" : "16:50 - 17:00",
-			"title" : "Cierre del evento",
-			"author" : "Equipo PythonDay México"
-		}
-	]
+  "title": "Programa",
+  "day1": [
+    {
+      "timeperiod": "10:00 - 10:10",
+      "title": "Inauguración",
+      "author": "Equipo PythonDay México"
+    },
+    {
+      "timeperiod": "10:10 - 10:50",
+      "title": "Python Good Practices for real-life Web Development",
+      "author": "Ricardo Tercero Solis",
+      "level": "Principiante",
+      "description": "Now a day there are many methodologies, rules, etc. that states the way a developer must design, code and deliver. However, the real-life in a web project is too dynamic to stick to all of them or to those you like the most. This talk is to share what I’ve learned along my journey as a web developer."
+    },
+    {
+      "timeperiod": "10:55 - 11:35",
+      "title": "Del reconocimiento de patrones al machine learning",
+      "author": "Ulises Garcia",
+      "level": "Intermedio",
+      "description": "¿Te has preguntado qué hay antes del machine learning? ¿Realmente las computadoras aprende por sí solas? La respuesta es no, el machine learning es cómo educar a un bebé desde su crecimiento, pero no de manera explicita las computadoras necesitan datos."
+    },
+    {
+      "timeperiod": "11:40 - 12:20",
+      "title": "Estudio de redes genéticas con python usando pandas y networkx",
+      "author": "Rodrigo Dorantes-Gilardi",
+      "level": "Intermedio",
+      "description": "Se habla del estudio de redes de co-expresion genética con herramientas de programación. Se presenta un flujo típico de investigación usando python en jupyter donde se muestran algunas visualizaciones y resultados de un problema de investigación."
+    },
+    {
+      "timeperiod": "12:25 - 13:05",
+      "title": "Monitoreando y visualizando streaming de datos con Bokeh",
+      "author": "Juana Martinez",
+      "level": "Intermedio",
+      "description": "El aprender uso de librerías para dashboards y gráficos dinámicos e interactivos no solo te da el control sobre la configuración y diseño de tu monitor o reporte; puede librarte de encadenarte a un producto en particular o licencia. Ideal para emprendedores, micro y pequeñas empresas."
+    },
+    {
+      "timeperiod": "13:10 - 13:50",
+      "title": "Comida",
+      "author": "Equipo PythonDay México"
+    },
+    {
+      "timeperiod": "13:55 - 14:35",
+      "title": "Geoprocesamiento con Python",
+      "author": "Mario Alberto",
+      "level": "Intermedio",
+      "description": "En esta charla el objetivo principal es compartir un área en donde, el lenguaje python es de gran ayuda, se trata del manejo de información geo-espacial. Con esta charla, quiero compartir cómo es que se puede obtener, manejar y/o procesar información geo-espacial con Python y algunas bibliotecas."
+    },
+    {
+      "timeperiod": "14:40 - 15:20",
+      "title": "Explorar o aprovechar: Introducción a la optimización Bayesiana con Python",
+      "author": "Raúl Peralta Lozada",
+      "level": "Intermedio",
+      "description": "En esta plática quiero explicar el concepto de optimización Bayesiana, los caso de uso que tiene y cómo se pueden resolver este tipo de problemas usando las bibliotecas Botorch y Ax. Describiré el algoritmo general y los componentes de los que depende usando múltiples visualizaciones interactivas."
+    },
+    {
+      "timeperiod": "15:25 - 16:05",
+      "title": "Combinaciones, permutaciones y otras diversiones",
+      "author": "Ariel Ortiz Ramírez",
+      "level": "Intermedio",
+      "description": "Cuando se estudia probabilidad es común hablar de ciertas agrupaciones conocidas como combinaciones y permutaciones. En esta plática mostraré el poder y la elegancia de las listas por comprensión con el fin de diseñar e implementar funciones en Python que permitan generar este tipo de agrupaciones."
+    },
+    {
+      "timeperiod": "16:10 - 16:50",
+      "title": "DjangoJazz, cómo contribuir al ecosistema de Django",
+      "author": "Andres Vargas",
+      "level": "Intermedio",
+      "website": "https://jazzband.co/",
+      "description": "DjangoJazzband, no es una banda de jazz, es un grupo de desarrolladores de python que no tocan jazz."
+    },
+    {
+      "timeperiod": "16:50 - 17:00",
+      "title": "Cierre del día",
+      "author": "Equipo PythonDay México"
+    }
+  ],
+  "day2": [
+    {
+      "timeperiod": "09:50 - 10:00",
+      "title": "¡Reanudamos actividades!",
+      "author": "Equipo PythonDay México"
+    },
+    {
+      "timeperiod": "10:00 - 12:00",
+      "title": "Build a CRUD App with Python, Flask, and Angular",
+      "author": "Alejandro Mercado",
+      "level": "Básico",
+      "description": "Sala 1"
+    },
+    {
+      "timeperiod": "10:00 - 13:00",
+      "title": "Cómo contribuir al código fuente de CPython",
+      "author": "Diego Barriga y Luis",
+      "level": "Intermedio/Avanzado",
+      "description": "Sala 2"
+    },
+    {
+      "timeperiod": "13:00 - 14:00",
+      "title": "Comida",
+      "author": "Equipo PythonDay México"
+    },
+    {
+      "timeperiod": "14:00 - 16:50",
+      "title": "Ciencia de datos con Jupyter Notebook",
+      "author": "IBM",
+      "level": "Básico",
+      "description": "Sala 1"
+    },
+    {
+      "timeperiod": "14:00 - 16:50",
+      "title": "Cómputo distribuido con Celery",
+      "author": "Ángel Galicia",
+      "level": "Intermedio/Avanzado",
+      "description": "Sala 2"
+    },
+    {
+      "timeperiod": "16:50 - 17:00",
+      "title": "Cierre del evento",
+      "author": "Equipo PythonDay México"
+    }
+  ]
 }
